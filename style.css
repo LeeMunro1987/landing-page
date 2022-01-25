@@ -1,49 +1,69 @@
-body {
-    border: 0;
-    padding: 0;
-    margin: 0;
+* {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
 }
 
 header {
     background-color: #1f2937;
+    padding: 20px 200px 20px 200px;
 }
 
 nav {
-    color: #F9FAF8;
-    padding: 5px;
     display: flex;
     justify-content: center;
 }
 
 .logo {
     flex: 1;
-    border: 1px solid red;
+    color: #F9FAF8;
+    font-family: 'Lobster';
+    font-size: 40px;
 }
 
 .navigation {
+    color: #E5E7EB;
     flex: 1;
-    border: 1px solid red;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lobster';
+    font-size: 20px;
+    padding: auto 0px;
 }
 
 .navigation > a {
     flex: 1;
     text-align: center;
-    color: #F9FAF8;
     text-decoration: none;
+    color: #E5E7EB;
+
 }
+
 .top {
     background-color: #1f2937;
     color: #F9FAF8;
+    display: flex;
+    padding: 20px 200px 20px 200px;
+}
+
+.top > .herotext {
+    flex: 2;
+}
+
+.top > .heroimage {
+    flex: 1;
 }
 
 .main {
     background-color: #F9FAF8;
     color: #1F2937;
+    padding: 20px 200px 20px 200px;
 }
 
 .quote {
     background-color: #E5E7EB;
+    padding: 20px 200px 20px 200px;
 }
 .heroimage img {
     width: 500px;
@@ -53,4 +73,12 @@ nav {
 .main-content-image {
     width: 200px;
     height: 200px;
+}
+
+.bottom {
+    padding: 20px 200px 20px 200px;
+}
+
+footer {
+    padding: 20px 200px 20px 200px;
 }
