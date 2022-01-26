@@ -21,6 +21,9 @@ nav {
     font-size: 40px;
 }
 
+.logo > p {
+}
+
 .navigation {
     color: #E5E7EB;
     flex: 1;
@@ -44,15 +47,53 @@ nav {
     background-color: #1f2937;
     color: #F9FAF8;
     display: flex;
-    padding: 20px 200px 20px 200px;
+    padding: 50px 200px 50px 200px;
+    gap: 20px;
 }
 
 .top > .herotext {
-    flex: 2;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+}
+
+.top > .herotext > .hero-title {
+    font-size: 50px;
+    color: #E5E7EB;
+}
+
+.top > .herotext > .hero-describe {
+    color: #E5E7EB;
+    font-size: 20px;
+}
+
+.top > .herotext > button {
+  background-color: #37AEE2;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-size: 16px;
+  justify-content: center;
+  padding: 10px;
+  text-decoration: none;
+  width: 100px;
+  border: 0;
+}
+
+.top > .herotext > button:hover {
+  background-color: #17759C;
 }
 
 .top > .heroimage {
     flex: 1;
+    border: 3px solid white;
+}
+
+.heroimage img {
+    width: 100%;
+    height:100%;
 }
 
 .main {
@@ -65,10 +106,7 @@ nav {
     background-color: #E5E7EB;
     padding: 20px 200px 20px 200px;
 }
-.heroimage img {
-    width: 500px;
-    height: 300px;
-}
+
 
 .main-content-image {
     width: 200px;
